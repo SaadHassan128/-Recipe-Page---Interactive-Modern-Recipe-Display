@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Delicious Recipes</h1>
+    </header>
+    
+    <section class="recipe-container">
+        <div class="recipe-card" data-index="0">
+            <img src="sp.jpg" alt="Spaghetti Carbonara">
+            <div class="recipe-info">
+                <h2>Spaghetti Carbonara</h2>
+                <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+                <button class="btn">View Recipe</button>
+            </div>
+        </div>
+
+        <div class="recipe-card" data-index="1">
+            <img src="gr.jpg" alt="Grilled Chicken Salad">
+            <div class="recipe-info">
+                <h2>Grilled Chicken Salad</h2>
+                <p>A healthy and delicious salad with grilled chicken, fresh greens, and a tangy dressing.</p>
+                <button class="btn">View Recipe</button>
+            </div>
+        </div>
+
+        <div class="recipe-card" data-index="2">
+            <img src="cc.jpg" alt="Chocolate Cake">
+            <div class="recipe-info">
+                <h2>Chocolate Cake</h2>
+                <p>A rich and moist chocolate cake topped with a creamy chocolate frosting.</p>
+                <button class="btn">View Recipe</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title"></h2>
+            <p class="modal-description"></p>
+            <h3>Ingredients</h3>
+            <ul class="modal-ingredients"></ul>
+            <h3>Steps</h3>
+            <ol class="modal-steps"></ol>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Recipe Page. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
